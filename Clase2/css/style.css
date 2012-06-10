@@ -1,0 +1,131 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #DDD;
+	font-size: 16px;
+}
+
+section#wrap {
+	background: #FFF;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 400px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+header {
+	background: lightblue;
+	box-sizing: border-box;
+	height: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+div#logo {
+	background: white;
+	height: 130px;
+	margin-bottom: 10px;
+	width: 260px;
+}
+
+nav {
+	background: #EEE;
+	height: 40px;
+	text-align: center;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	border: 1px solid black;
+	display: inline-block;
+	line-height: 38px;
+	vertical-align: middle;
+	width: 19.4%;
+}
+
+section#principal {
+	background: lightblue;
+    margin-bottom: 10px;
+    overflow: hidden;
+	width: 100%;
+}
+
+section#contenido {
+	background: #EEE;
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+	width: 60%;
+}
+
+article {
+	background: #CCC;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	padding: 10px;
+
+	width: 100%;
+}
+
+article:last-child{
+	margin-bottom: 0;
+}
+
+div#img_article {
+    background: #FFF;
+    display: inline-block;
+	height: 150px;
+	width: 20%;
+}
+
+div#title_article {
+    background: lightgreen;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    width: 79%;
+}
+
+
+aside {
+	background: #EEE;
+	float: left;
+	margin-left: 1%;
+    min-height: 250px;
+	width: 39%
+}
+
+div#aside_top, div#aside_bottom {
+    background: #CCC;
+    display: block;
+    height: 240px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+div#aside_bottom {
+    margin-bottom: 0;
+}
+
+footer {
+    background: lightblue;
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+/****** CLASES *****/
+.cornerradius10 {
+	border-radius: 10px;
+}
